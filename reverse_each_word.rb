@@ -5,6 +5,7 @@ wordArr.collect do | word |
   letterArr = word.split("")
   revletterArr = letterArr.reverse
   reverseArr.push(revletterArr.join(""));
+
 end
 return reverseArr.join(" ")
 end
