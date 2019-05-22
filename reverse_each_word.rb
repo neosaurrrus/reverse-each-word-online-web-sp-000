@@ -6,4 +6,5 @@ wordArr.each do | word |
   revletterArr = letterArr.reverse
   reverseArr.push(revletterArr);
 end
+return reverseArr.join("")
 end
