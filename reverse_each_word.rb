@@ -4,7 +4,7 @@ reverseArr = []
 wordArr.each do | word |
   letterArr = word.split("")
   revletterArr = letterArr.reverse
-  reverseArr.push(revletterArr);
+  reverseArr.push(revletterArr.join(""));
 end
 return reverseArr.join(" ")
 end
