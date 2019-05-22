@@ -3,5 +3,5 @@ wordArr = str.split(" ")
 reverseArr = []
 wordArr.each do | word |
   reverseArr.push(word.reverse);
-
+end
 end
