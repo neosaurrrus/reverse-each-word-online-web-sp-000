@@ -1,5 +1,7 @@
 def reverse_each_word(str)
 wordArr = str.split(" ")
-return wordArr
+reverseArr = []
+wordArr.each do | word |
+  reverseArr.push(word.reverse);
 
 end
