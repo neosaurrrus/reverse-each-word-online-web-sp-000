@@ -2,8 +2,8 @@ def reverse_each_word(str)
 wordArr = str.split(" ")
 reverseArr = []
 wordArr.each do | word |
-  revWordArr = word.split("")
-  revWord = revWordArr.reverse
+  letterArr = word.split("")
+  revletterArr = letterArr.reverse
   reverseArr.push(revWord);
 end
 end
